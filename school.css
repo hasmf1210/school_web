@@ -101,7 +101,6 @@ nav ul li a {
     border : 2px solid #a66;
     text-align : center;
     background: rgba(170, 102, 102, 0.155);
-    padding : 0rem;
 }
 
 nav ul li a:hover {
@@ -110,26 +109,27 @@ nav ul li a:hover {
 
 nav ul li {
     list-style: none;
-    width: 10rem;
-    margin: 10px 5px 10px 5px;
+    width: 10vw;
     line-height: 3;
 }
 
 section li, aside ul li {
-    line-height: inherit;
-    list-style-type: inherit;
+    line-height: inherit; /*상속*/
+    list-style-type: inherit; /*상속*/
 }
 
 nav {
-  float: right;
-  margin-top: -250px;
-  padding-right: 0rem
+  
+  padding-left: 
 }
 
 nav li {
   list-style: none;
-  margin-bottom: 2em;
+  margin-bottom: 2vh;
 }
+
+
+
 
 @font-face {
     font-family: 'kaushan_scriptregular';
